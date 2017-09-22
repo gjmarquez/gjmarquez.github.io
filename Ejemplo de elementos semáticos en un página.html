@@ -4,12 +4,14 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="w3.css"/>
     <title>Ejemplo de elementos semáticos en un página</title>
-</head>
+	</head>
+
 
 <body>
 
 <nav class="w3-gray w3-container w3-card">
 <p>
+	
     <a href="https://google.es/">Google</a> |
     <a href="https://gmail.com/">Gmail</a> |
     <a href="https://wikipedia.org/">Wikipedia</a> |
@@ -27,7 +29,7 @@
     <section>
         <article>
             <header>
-                <h1 class ="w3-pink w3-container w3-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                <h1 class ="w3-pink w3-container w3-card w3-text-black w3-border w3-hover-border-color-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
                 <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis
                     enim ac nulla sodales pellentesque. Vivamus faucibus ultrices orci, ac
@@ -35,7 +37,12 @@
                     aliquet enim.
                   </p>
             </header>
-            <p>
+            <div class="w3-container">
+ 
+  
+
+
+            <p class="w3-wide">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis
                 enim ac nulla sodales pellentesque. Vivamus faucibus ultrices orci, ac
                 ultrices urna condimentum quis. Praesent et lorem porta, tincidunt sapien et,
@@ -45,10 +52,12 @@
                 facilisis ipsum in, cursus risus. Quisque dolor augue, elementum in nibh vel,
                 maximus molestie odio. Curabitur egestas leo ut bibendum consectetur.
             </p>
-            <section class ="w3-pink">
+          </div>
+            <section class ="w3-pink w3-text-black">
                     <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1> 
             </section>
-            <p>Morbi mattis
+            <div class="w3-panel w3-leftbar w3-sand">
+  <p class="w3-xxlarge w3-serif">  Morbi mattis
                 enim ac nulla sodales pellentesque. Vivamus faucibus ultrices orci, ac
                 ultrices urna condimentum quis. Praesent et lorem porta, tincidunt sapien et,
                 aliquet enim. Integer id enim mattis quam ornare pharetra. Vivamus
@@ -57,7 +66,8 @@
                 facilisis ipsum in, cursus risus. Quisque dolor augue, elementum in nibh vel,
                 maximus molestie odio. Curabitur egestas leo ut bibendum consectetur.
             </p>
-            <section class ="w3-pink">
+            </div>
+            <section class ="w3-pink w3-text-black">
                     <h1>Pellentesque lacus mauris, maximus elementum
                 cursus a, dapibus nec nulla.</h1> 
             </section>
@@ -76,23 +86,30 @@
         </article> 
         
         <article >
-            <h1 class ="w3-pink">Lorem ipsum dolor sit amet</h1>
+            <h1 class ="w3-pink w3-text-black">Lorem ipsum dolor sit amet</h1>
+	<div class="w3-panel w3-pale-grey w3-leftbar w3-border-black">
+
             <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis
                 enim ac nulla sodales pellentesque. Vivamus faucibus ultrices orci, ac
                 ultrices urna condimentum quis. Praesent et lorem porta, tincidunt sapien et,
                 aliquet enim.
             </p>
+            </div>
         </article>
     </section>
     
     <aside>
+     <div class="w3-border w3-black">
+    <div class="w3-container w3-margin w3-white ">
         <p>Leer también:</p>
         <ul>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
             <li>Morbi mattis enim ac nulla sodales pellentesque.</li>
             <li>Vivamus faucibus ultrices orci, ac ultrices urna condimentum quis.</li>
         </ul>
+         </div>
+ 	 </div>
     </aside>
 </main>
 
@@ -100,6 +117,15 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis
     enim ac nulla sodales pellentesque.
 </footer>
+<h2>Pagination</h2>
+
+<div class="w3-bar">
+  <a href="#" class="w3-button">1</a>
+  <a href="#" class="w3-button">2</a>
+  <a href="#" class="w3-button">3</a>
+  <a href="#" class="w3-button">4</a>
+  <a href="#" class="w3-button">5</a>
+</div>
 
 
 </body></html>
